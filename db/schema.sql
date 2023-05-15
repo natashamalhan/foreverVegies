@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS veggie_db;
+
+CREATE DATABASE veggie_db;
