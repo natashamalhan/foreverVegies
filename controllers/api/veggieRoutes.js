@@ -12,7 +12,6 @@ try {
 }
 })
 
-<<<<<<< HEAD
 router.post("/", async (req, res) =>{
     try {
         const veggie = await Veggie.create(req.body)
@@ -23,6 +22,4 @@ router.post("/", async (req, res) =>{
     }
 })
 
-=======
->>>>>>> 8b0f3a42e23b58e5fac21ca2359ce0d6d43ab40d
 module.exports = router
