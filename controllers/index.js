@@ -1,8 +1,8 @@
 const router = require("express").Router()
-const apiRoutes = require("./api")
+const veggieRoutes = require("./api/veggieRoutes")
 const frontendRoutes = require("./frontendRoutes")
 
-router.use("/api", apiRoutes)
+router.use("/api/veggies", veggieRoutes)
 router.use("/", frontendRoutes)
 
 module.exports = router

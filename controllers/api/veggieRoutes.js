@@ -12,4 +12,14 @@ try {
 }
 })
 
+router.post("/", async (req, res) =>{
+    try {
+        const veggie = await Veggie.create(req.body)
+        res.status(200).json(veggie)
+    } catch (error) {
+        console.log(error)
+        res.status(500).json(error)
+    }
+})
+
 module.exports = router

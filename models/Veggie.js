@@ -19,6 +19,7 @@ Veggie.init(
   {
     sequelize,
   }
+  
 );
 
 module.exports = Veggie;

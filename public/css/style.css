@@ -1,0 +1,80 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .login-box {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005D6E;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 50%;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    /* Additional styles for your website content */
+    padding: 20px;
+    color: #fff;
+  }
+
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(9, 55, 9);
+  }
+  ul{
+    text-align: center;
+    list-style: none;
+  }
+  

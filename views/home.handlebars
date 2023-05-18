@@ -1,1 +1,10 @@
-{{message}}
+<div class="veggiedrop">
+    <a href="/new-veggie"> Put Veggies Here!</a>
+    
+  <ul class="veggielist">
+    {{#each veggies}}
+    <li>Name: {{name}}</li>
+    <li>Color: {{color}}</li>
+    {{/each}}
+  </ul>
+</div>
