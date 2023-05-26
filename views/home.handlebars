@@ -1,10 +1,13 @@
 <div class="veggiedrop">
-   <center><a href="/new-veggie"> Put Veggies Here!</a></center>
-    
+  <center><a href="/new-veggie"> Put Veggies Here!</a></center>
+
   <ul class="veggielist">
     {{#each veggies}}
+    <div class="w3-card">
     <li>Name: {{name}}</li>
     <li>Color: {{color}}</li>
+    </div>
+    <br>
     {{/each}}
   </ul>
 </div>
